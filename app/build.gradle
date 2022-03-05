@@ -22,6 +22,11 @@ android {
     }
 
 }
+//MobSDK {
+//    appKey 31893daae3e78
+//    appSecret 66f297a1b90f51cf3f99f0dd10f7056f
+//    SMSSDK {}
+//}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
