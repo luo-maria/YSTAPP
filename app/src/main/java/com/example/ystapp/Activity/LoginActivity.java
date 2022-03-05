@@ -108,9 +108,9 @@ public class LoginActivity  extends BaseActivity  implements View.OnClickListene
 //                BmobQuery<Student> bmobQuery = new BmobQuery<Student>();
 //                bmobQuery.addWhereEqualTo("number", number);
 //                bmobQuery.addWhereEqualTo("password", password);
-                final Student student = new Student();
-                student.setStudent_number(number);
-                student.setStudent_password(password);
+//                final Student student = new Student();
+//                student.setStudent_number(number);
+//                student.setStudent_password(password);
 //                student.login(new SaveListener<Student>() {
 //                    @Override
 //                    public void done(Student bmobUser, BmobException e) {
