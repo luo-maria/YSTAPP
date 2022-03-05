@@ -105,9 +105,9 @@ public class LoginActivity  extends BaseActivity  implements View.OnClickListene
                     Toast.makeText(this, "学号或密码不能为空", Toast.LENGTH_LONG).show();
                     return;
                 }
-//                BmobQuery<Student> bmobQuery = new BmobQuery<Student>();
-//                bmobQuery.addWhereEqualTo("number", number);
-//                bmobQuery.addWhereEqualTo("password", password);
+                BmobQuery<Student> bmobQuery = new BmobQuery<Student>();
+                bmobQuery.addWhereEqualTo("number", number);
+                bmobQuery.addWhereEqualTo("password", password);
                 final Student student = new Student();
                 student.setStudent_number(number);
                 student.setStudent_password(password);
